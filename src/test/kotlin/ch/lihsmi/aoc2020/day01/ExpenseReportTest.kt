@@ -26,7 +26,7 @@ class ExpenseReportTest {
             1424, 1985, 1665, 1685, 1942, 1669, 64, 1832, 1995, 1987, 1955, 352, 1984, 1925, 1891, 1933, 1679, 2001, 1930, 1991, 1227,
             1973, 1723, 1683, 132, 1718, 1944, 1908, 1900, 1657, 1954, 92, 1997, 1938, 1976, 1747, 1226, 1782, 1963, 1746, 1540, 1759,
             1939, 1743)
-        Assertions.assertEquals(1, expRep.calcExpenses(expenses))
+        Assertions.assertEquals(319531, expRep.calcExpenses(expenses))
     }
 
     @Test
@@ -50,7 +50,7 @@ class ExpenseReportTest {
             1424, 1985, 1665, 1685, 1942, 1669, 64, 1832, 1995, 1987, 1955, 352, 1984, 1925, 1891, 1933, 1679, 2001, 1930, 1991, 1227,
             1973, 1723, 1683, 132, 1718, 1944, 1908, 1900, 1657, 1954, 92, 1997, 1938, 1976, 1747, 1226, 1782, 1963, 1746, 1540, 1759,
             1939, 1743)
-        Assertions.assertEquals(241861950, expRep.calc3Expenses(expenses))
+        Assertions.assertEquals(244300320, expRep.calc3Expenses(expenses))
     }
 
 }
