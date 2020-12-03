@@ -1028,7 +1028,6 @@ class ValidPasswordCounterTest {
         Assertions.assertEquals(2, validPwdCount)
     }
 
-
     @Test
     fun parsePasswordInputReturnsExpectedCount() {
         val pwdParser = PasswordParser()
